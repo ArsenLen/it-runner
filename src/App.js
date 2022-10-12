@@ -1,11 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import AddLessonPage from './pages/AddLessonPage/AddLessonPage';
+import PrimaryLayout from './layout/PrimaryLayout';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+    <PrimaryLayout >
+      <Routes>
+        <Route path="/" />
+        <Route path="/add-lesson" element={<AddLessonPage />}/>
+        <Route path="/homework" />
+        <Route path="/homeworks" />
+        <Route path="/video" />
+      </Routes>
+    </PrimaryLayout>
+    </>
   );
 }
 
