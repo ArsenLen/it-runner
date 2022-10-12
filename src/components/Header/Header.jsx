@@ -9,8 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+        <Box sx={{ flexGrow: 1 }} style={{'height' : '64px'}}>
+            <AppBar position="fixed">
                 <Toolbar>
                     <IconButton
                         size="large"

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const SidebarWrapper = styled.div`
+    position: fixed;
     width: 250px;
     height: calc(100vh - 64px);
     box-shadow: 0 0 15px -5px #4b4b4c;
@@ -21,11 +22,15 @@ const SidebarLink = styled(Link)`
 
 const Sidebar = () => {
     return (
+        <div style={{'width' : '250px'}}>
         <SidebarWrapper>
+            
                 <SidebarLink to="/add-lesson">Создать урок</SidebarLink>
                 <SidebarLink to="/upload">Добавить ДЗ</SidebarLink>
                 <SidebarLink to="/add-video">Добавить видео</SidebarLink>
+            
         </SidebarWrapper>
+        </div>
     );
 };
 
