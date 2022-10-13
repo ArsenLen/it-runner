@@ -8,13 +8,13 @@ import {events} from './events.js'
 const localizer = momentLocalizer(moment);
 
 const LessonsCalendarPage = () => {
+
   return (
     <div style={{ height: "100vh", padding : '40px' }}>
       <Calendar
         events={events}
         localizer={localizer}
         startAccessor="start"
-        endAccessor="end"
       />
     </div>
   );
