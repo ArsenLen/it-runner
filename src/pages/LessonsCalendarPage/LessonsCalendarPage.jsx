@@ -4,6 +4,7 @@ import moment from "moment";
 import "moment/locale/ru";
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import {events} from './events.js'
+import Event from "../../components/Event/Event.jsx"; 
 
 const localizer = momentLocalizer(moment);
 
@@ -15,6 +16,9 @@ const LessonsCalendarPage = () => {
         events={events}
         localizer={localizer}
         startAccessor="start"
+        components={{
+          event : Event
+        }}
       />
     </div>
   );

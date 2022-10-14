@@ -1,38 +1,47 @@
 {
-    "groups" : [
-        {
-            "id" : 1,
-            "name" : "FE-PN-18",
-            "begin_date" : "",
-            "duration" : "",
-            "teacher_id" : 1,
-            "support_id" : 1
-        }
-    ],
-    "lessons" : [
-        {
-            "id" : 1,
-            "date" : "",
-            "group_id" : 1,
-            "name" : "HTML Basics",
-            "students" : [],
-            "video_link" : "",
-            "homework_id" : 1
-        }
-    ],
-    "students" : [
-        {
-            "id" : 1,
-            "name" : "Diyaz Ziyatbekov",
-            "group_id" : 1
-        }
-    ],
-    "homeworks" : [
-        {
-            "id" : 1,
-            "lesson_id" : 1,
-            "descr" : 1,
-            "submitted" : []
-        }
-    ]
+  "groups": [
+    {
+      "id": 1,
+      "name": "FE-PN-18",
+      "begin_date": "",
+      "duration": "",
+      "teacher_id": 1,
+      "support_id": 1
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "date": "",
+      "group_id": 1,
+      "name": "HTML Basics",
+      "students": [],
+      "video_link": "",
+      "homework_id": 1
+    },
+    {
+      "date": "2022-09-26T12:00:00.000Z",
+      "group_id": 1,
+      "name": "HTML Basics",
+      "students": [],
+      "video_link": "https://youtu.be/HO7HaYd9l3g",
+      "homework_id": 1,
+      "id": 2
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Diyaz Ziyatbekov",
+      "group_id": 1
+    }
+  ],
+  "homeworks": [
+    {
+      "id": 1,
+      "lesson_id": 1,
+      "descr": 1,
+      "submitted": []
+    }
+  ]
 }

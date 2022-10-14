@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" />
         <Route path="/calendar" element={<LessonsCalendarPage />} />
-        <Route path="/add-lesson" element={<AddLessonPage />}/>
+        <Route path="/add-lesson/:time" element={<AddLessonPage />}/>
         <Route path="/homework" />
         <Route path="/homeworks" />
         <Route path="/video" />
