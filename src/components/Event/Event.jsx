@@ -24,6 +24,7 @@ const Event = ({event}) => {
     }
     
     return (
+        // допипсать url с id
         <>  
         {existLesson ? (
             <Link to={`/lesson/${existLesson.id}`} className={styles.title}>{event.title}</Link>  
